@@ -22,13 +22,13 @@ def send_message():
         "Authorization": token
     }
     res = requests.post(url, payload, headers=headers)
-    if res.status_code == 400:
+    if res_msg.status_code == 400:
         print("I could message, maybe invalid channel id? ")
         exit()
-    if res.status_code == 401:
+    if res_msg.status_code == 401:
         print("I could not message, maybe invalid token? ")
         exit()
-    elif res.status_code == 200 or 204:
+    elif res_msg.status_code == 200 or 204:
         print(f"Successfully sent message {msg}.")
     else:
         print(res_msg.status_code)
