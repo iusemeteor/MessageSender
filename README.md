@@ -12,6 +12,7 @@ This script allows you to send messages to a Discord channel using Discord's API
 ## TODO
 - Make the message spam feature toggleable with the hotkey (`F6`).
 
+
 For more Discord tools and support, join our community: [discord.gg/meteorlol](https://discord.gg/meteorlol)
 
 ## Disclaimer
