@@ -9,6 +9,9 @@ This script allows you to send messages to a Discord channel using Discord's API
 - Use a hotkey (`F6`) to resend the last message without re-entering details.
 - Fetch user token directly from token.txt.
 
+## TODO
+- Make the message spam feature toggleable with the hotkey (`F6`).
+
 For more Discord tools and support, join our community: [discord.gg/meteorlol](https://discord.gg/meteorlol)
 
 ## Disclaimer
