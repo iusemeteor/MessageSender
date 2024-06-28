@@ -21,7 +21,7 @@ def send_message():
     headers = {
         "Authorization": token
     }
-    res = requests.post(url, payload, headers=headers)
+    res_msg = requests.post(url, payload, headers=headers)
     if res_msg.status_code == 400:
         print("I could message, maybe invalid channel id? ")
         exit()
